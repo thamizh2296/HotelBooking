@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Georgia, serif;
+}
+header{
+    background-color:white;
+    text-align:center;
+    padding:20px;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+header h1{
+    font-size:40px;
+    font-weight:bold;
+    letter-spacing:5px;
+}
+nav{
+    background-color:white;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    position:fixed;
+    top:84px;
+    width:100%;
+    z-index:1000;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    padding:18px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-size:12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    letter-spacing:1px;
+    transition:0.3s;
+}
+nav ul li a.active{
+    color:#a39756;
+    border-bottom:2px solid #a39756;
+    padding-bottom:5px;
+}
+nav ul li a:hover{
+    color:#a39756;
+    border-bottom:2px solid #a39756;
+    padding-bottom:5px;
+}
+ 
+.about-section{
+    margin-top:130px;
+    background:#a5a66e;
+    padding:80px 60px;
+    display:flex;
+    justify-content:space-between;
+}
+.about-left{
+    width:40%;
+}
+.about-left h1{
+    font-size:110px;
+}
+.logo{
+    font-size:40px;
+    margin-top:70px;
+}
+.about-right{
+    width:55%;
+}
+.about-right p{
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+.contact-section{
+    background:#f5f5f5;
+    padding:80px 60px;
+    display:flex;
+    justify-content:space-between;
+}
+.contact-title{
+    width:35%;
+}
+.contact-title h1{
+    font-size:90px;
+}
+.contact-info{
+    width:55%;
+    display:flex;
+    justify-content:space-between;
+}
+.column{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.column a{
+    color:black;
+    text-decoration:none;
+    border-bottom:1px solid black;
+    width:max-content;
+    padding-bottom:5px;
+}
+.column a:hover{
+    color:#8f8b58;
+}
+.footer{
+    background:#b2b2ae;
+    padding:60px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap:wrap;
+}
+.footer-map iframe{
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+.footer-left h1{
+    font-size:70px;
+    margin-top:10px;
+}
+.footer-logo{
+    font-size:35px;
+    margin-bottom:15px;
+}
+.restaurant-type{
+    font-size:18px;
+    letter-spacing:1px;
+}
+.footer-center{
+    line-height:2;
+    font-size:16px;
+}
+.footer-right{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    text-align:right;
+}
+.footer-right a{
+    text-decoration:none;
+    color:black;
+    font-size:15px;
+    letter-spacing:2px;
+    transition:0.3s;
+}
+.footer-right a:hover{
+    color:white;
+}
+.copyright{
+    background:#b2b2ae;
+    border-top:1px solid rgba(0,0,0,0.2);
+    padding:15px 40px;
+    font-size:14px;
+}
+ 
